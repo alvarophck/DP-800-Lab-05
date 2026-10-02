@@ -1,0 +1,5 @@
+CREATE USER WestSalesRep WITHOUT LOGIN;
+CREATE USER EastSalesRep WITHOUT LOGIN;
+
+GRANT SELECT ON dbo.Customers TO WestSalesRep;
+GRANT SELECT ON dbo.Customers TO EastSalesRep;

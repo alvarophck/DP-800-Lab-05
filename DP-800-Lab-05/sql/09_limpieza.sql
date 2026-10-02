@@ -1,0 +1,10 @@
+DROP SECURITY POLICY IF EXISTS CustomerRegionPolicy;
+DROP FUNCTION IF EXISTS Security.fn_RegionFilter;
+DROP SCHEMA IF EXISTS Security;
+
+DROP USER IF EXISTS MaskedViewer;
+DROP USER IF EXISTS WestSalesRep;
+DROP USER IF EXISTS EastSalesRep;
+
+DROP TABLE IF EXISTS dbo.Customers;
+DROP TABLE IF EXISTS dbo.Employees;
